@@ -1,7 +1,5 @@
-//Controlador de la aplicacion
 import CuadrosDeDialogo.*;
 import CuadrosDeDialogo.Error;
-//Obtener precio del peso en dolares, euros, libras, yenes y won coreano
 import javax.swing.*;
 
 public class Main {
@@ -15,9 +13,6 @@ public class Main {
     double factor = 0, resultado;
     String moneda = "";
     Menu menu = new Menu();
-    //Al dar en conversor de moneda cambiar a la clase OpcionesMonedas;
-    //Al dar en conversor de temperatura cambiar a la clase OpcionesTemperatura;
-    //Al dar click en Ok en la ventana de CuadrosDeDialogo.Menu, se debe mostrar la ventana de OpcionesMonedas
     if(menu.opcion.equals("Cambio de moneda")){
       OpcionesMonedas opcionesMonedas = new OpcionesMonedas();
       switch (opcionesMonedas.opcion){

@@ -1,4 +1,4 @@
-package CuadrosDeDialogo;//Cuandro de entrada de valor de de diner para convertir a la modena escogida con swing
+package CuadrosDeDialogo;
 import javax.swing.JOptionPane;
 
 public class EntradaValor {
